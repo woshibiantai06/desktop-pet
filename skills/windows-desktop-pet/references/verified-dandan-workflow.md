@@ -12,7 +12,7 @@
 - 规划转身时，用户指出提示词只生成了左右走、没有转身，于是补出正面向左／右转身以及两侧回正面的独立提示词。这是“复杂整段生成不稳定时再拆”的直接依据。
 - 最终程序含 40 个来源动作、57 个播放片段，支持姿态、摸头、拖动走路、键盘联动、自由活动和正常出入场。来源数与派生片段数分开计数。
 
-源码例子在本仓库 `examples/dandan`；完整 Windows 示例及实际运行素材通过 Release 提供。源程序通过了基础路线、取消、恢复和自由活动等检查；这些不替代新宠物素材的视觉验收。
+源码例子在公开仓库 [examples/dandan](https://github.com/woshibiantai06/desktop-pet/tree/main/examples/dandan)；完整 Windows 示例及实际运行素材在 [诞诞 0.3.2 Release](https://github.com/woshibiantai06/desktop-pet/releases/tag/dandan-v0.3.2)。即使只拿到本 Skill 文件夹，也可通过这些地址查到配套源码与运行说明。源程序通过了基础路线、取消、恢复和自由活动等检查；这些不替代新宠物素材的视觉验收。
 
 ## 新技能补上的部分
 
