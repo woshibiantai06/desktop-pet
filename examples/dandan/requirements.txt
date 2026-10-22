@@ -1,0 +1,5 @@
+numpy
+Pillow
+PySide6
+psutil
+opencv-python-headless

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+runtime/*
+!runtime/app.ico
+frame_cache/
+logs/
+qa/
+*.log
+desktop_pet.png
+dist/
+build/
+*.spec

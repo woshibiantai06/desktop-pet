@@ -1,0 +1,2042 @@
+{
+  "size": 280,
+  "render_size": 420,
+  "manifest": {
+    "stand_idle": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_009.npy",
+      "canvas_size": 612,
+      "source_id": 36,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        166,
+        168,
+        226,
+        332
+      ],
+      "storage_shape": [
+        332,
+        226,
+        4
+      ]
+    },
+    "lick": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_018.npy",
+      "source_id": 3,
+      "transform": [
+        0.4064039408866995,
+        104.33497536945812,
+        59.09113300492612
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        104,
+        65,
+        195,
+        332
+      ],
+      "storage_shape": [
+        332,
+        195,
+        4
+      ]
+    },
+    "tilt": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_039.npy",
+      "source_id": 7,
+      "transform": [
+        0.5238095238095238,
+        74.33333333333331,
+        8.380952380952351
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        74,
+        60,
+        227,
+        338
+      ],
+      "storage_shape": [
+        338,
+        227,
+        4
+      ]
+    },
+    "bark": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_013.npy",
+      "source_id": 11,
+      "transform": [
+        0.5555555555555556,
+        66.66666666666666,
+        -7.333333333333371
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        71,
+        63,
+        228,
+        333
+      ],
+      "storage_shape": [
+        333,
+        228,
+        4
+      ]
+    },
+    "sit_down": {
+      "start": "stand_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_028.npy",
+      "source_id": 8,
+      "transform": [
+        0.5602716468590832,
+        65.44991511035656,
+        -7.3955857385398645
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        96,
+        64,
+        214,
+        337
+      ],
+      "storage_shape": [
+        337,
+        214,
+        4
+      ]
+    },
+    "sit_tilt": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_035.npy",
+      "source_id": 2,
+      "transform": [
+        0.4243208279430789,
+        92.46313065976715,
+        30.235446313066006
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "body_normalization": {
+        "before": [
+          107.0,
+          313.0
+        ],
+        "after": [
+          125.0,
+          312.0
+        ],
+        "reference": [
+          125.0,
+          312.0
+        ],
+        "scale_xy": [
+          0.4938834435073323,
+          0.42276422764227645
+        ]
+      },
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        177,
+        156,
+        221,
+        337
+      ],
+      "storage_shape": [
+        337,
+        221,
+        4
+      ]
+    },
+    "lie_down": {
+      "start": "sit_front",
+      "end": "lie_front",
+      "fps": 30,
+      "frames": 183,
+      "file": "runtime/asset_019.npy",
+      "source_id": 6,
+      "transform": [
+        0.5248,
+        65.67999999999998,
+        2.924799999999948
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        66,
+        65,
+        251,
+        340
+      ],
+      "storage_shape": [
+        340,
+        251,
+        4
+      ]
+    },
+    "head_down": {
+      "start": "lie_front",
+      "end": "lie_paws",
+      "fps": 30,
+      "frames": 303,
+      "file": "runtime/asset_017.npy",
+      "source_id": 14,
+      "transform": [
+        0.5308641975308642,
+        34.81481481481481,
+        16.4320987654321
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        35,
+        131,
+        263,
+        272
+      ],
+      "storage_shape": [
+        272,
+        263,
+        4
+      ]
+    },
+    "paws_idle": {
+      "start": "lie_paws",
+      "end": "lie_paws",
+      "fps": 30,
+      "frames": 183,
+      "file": "runtime/asset_021.npy",
+      "source_id": 26,
+      "transform": [
+        0.3763837638376384,
+        6.0,
+        96.39852398523982
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "body_normalization": {
+        "scale": 0.40522875816993464,
+        "reference": "head_down",
+        "target_height": 186.0
+      },
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        87,
+        294,
+        308,
+        198
+      ],
+      "storage_shape": [
+        198,
+        308,
+        4
+      ]
+    },
+    "stand_quiet": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 60,
+      "file": "runtime/asset_009.npy",
+      "canvas_size": 612,
+      "source_id": 36,
+      "fixed_body_scale": true,
+      "authored": true,
+      "hold_index": -1,
+      "derived": "quiet endpoint of authored idle",
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        166,
+        168,
+        226,
+        332
+      ],
+      "storage_shape": [
+        332,
+        226,
+        4
+      ]
+    },
+    "sit_quiet": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 60,
+      "file": "runtime/asset_007.npy",
+      "canvas_size": 612,
+      "source_id": 30,
+      "fixed_body_scale": true,
+      "authored": true,
+      "hold_index": -1,
+      "derived": "quiet endpoint of authored idle",
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        182,
+        170,
+        214,
+        330
+      ],
+      "storage_shape": [
+        330,
+        214,
+        4
+      ]
+    },
+    "lie_quiet": {
+      "start": "lie_front",
+      "end": "lie_front",
+      "fps": 30,
+      "frames": 60,
+      "file": "runtime/asset_019.npy",
+      "hold_index": -1,
+      "derived": "2 second still hold from source endpoint",
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        66,
+        65,
+        251,
+        340
+      ],
+      "storage_shape": [
+        340,
+        251,
+        4
+      ]
+    },
+    "turn_exit": {
+      "start": "stand_front",
+      "end": "stand_threequarter",
+      "fps": 30,
+      "frames": 120,
+      "excluded_source_frames_1based": [
+        121
+      ],
+      "trim_reason": "Last frame has a visibly blurred double silhouette; retain original cache, exclude from playback and blending",
+      "file": "runtime/asset_040.npy",
+      "source_id": 15,
+      "transform": [
+        0.9792284866468842,
+        87.6320474777448,
+        -126.87240356083078
+      ],
+      "canvas_size": 612,
+      "fixed_exit_scale": true,
+      "action_class": "system_lifecycle",
+      "trigger": "exit_requested",
+      "response_priority": 100,
+      "request_kind": "exit",
+      "crop_rect": [
+        156,
+        154,
+        279,
+        339
+      ],
+      "storage_shape": [
+        339,
+        279,
+        4
+      ]
+    },
+    "exit_effect": {
+      "start": "stand_threequarter",
+      "end": "offscreen",
+      "fps": 30,
+      "frames": 183,
+      "file": "runtime/asset_016.npy",
+      "source_id": 16,
+      "transform": [
+        0.9792284866468842,
+        87.6320474777448,
+        -126.87240356083078
+      ],
+      "canvas_size": 612,
+      "fixed_exit_scale": true,
+      "action_class": "system_lifecycle",
+      "trigger": "exit_requested",
+      "response_priority": 100,
+      "request_kind": "exit",
+      "crop_rect": [
+        93,
+        144,
+        460,
+        333
+      ],
+      "storage_shape": [
+        333,
+        460,
+        4
+      ]
+    },
+    "entry_effect": {
+      "start": "offscreen",
+      "end": "stand_front_small",
+      "fps": 30,
+      "frames": 302,
+      "file": "runtime/asset_015.npy",
+      "source_id": 17,
+      "transform": [
+        1.411764705882353,
+        -326.0,
+        -168.5294117647059
+      ],
+      "action_class": "system_lifecycle",
+      "trigger": "startup",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        82,
+        90,
+        251,
+        264
+      ],
+      "storage_shape": [
+        264,
+        251,
+        4
+      ]
+    },
+    "entry_approach": {
+      "start": "stand_front_small",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 243,
+      "file": "runtime/asset_014.npy",
+      "source_id": 18,
+      "transform": [
+        0.9041095890410958,
+        -19.643835616438338,
+        -163.6438356164383
+      ],
+      "action_class": "system_lifecycle",
+      "trigger": "startup",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        72,
+        65,
+        239,
+        337
+      ],
+      "storage_shape": [
+        337,
+        239,
+        4
+      ]
+    },
+    "look_left": {
+      "start": "stand_front",
+      "end": "stand_look_screen_left",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_020.npy",
+      "source_id": 10,
+      "transform": [
+        0.4064039408866995,
+        104.33497536945812,
+        59.09113300492612
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "transform_xy": [
+        0.42120343839541546,
+        0.4064039408866995,
+        196.3810888252149,
+        154.40640394088672
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        196,
+        161,
+        203,
+        332
+      ],
+      "storage_shape": [
+        332,
+        203,
+        4
+      ]
+    },
+    "stand_look": {
+      "start": "stand_look_screen_left",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 303,
+      "file": "runtime/asset_037.npy",
+      "source_id": 23,
+      "transform": [
+        0.4582843713278496,
+        29.89424206815511,
+        6.0
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "transform_xy": [
+        0.4723127035830619,
+        0.47467438494934877,
+        120.01954397394138,
+        87.64688856729379
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        161,
+        88,
+        251,
+        486
+      ],
+      "storage_shape": [
+        486,
+        251,
+        4
+      ]
+    },
+    "sit_look": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 302,
+      "file": "runtime/asset_030.npy",
+      "source_id": 19,
+      "transform": [
+        0.3485653560042508,
+        64.6482465462274,
+        48.48034006376196
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        65,
+        48,
+        233,
+        349
+      ],
+      "storage_shape": [
+        349,
+        233,
+        4
+      ]
+    },
+    "sit_up": {
+      "start": "sit_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_008.npy",
+      "canvas_size": 612,
+      "source_id": 39,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        167,
+        169,
+        244,
+        334
+      ],
+      "storage_shape": [
+        334,
+        244,
+        4
+      ]
+    },
+    "lie_up": {
+      "start": "lie_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_002.npy",
+      "canvas_size": 612,
+      "source_id": 37,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        132,
+        171,
+        263,
+        343
+      ],
+      "storage_shape": [
+        343,
+        263,
+        4
+      ]
+    },
+    "head_up": {
+      "start": "lie_paws",
+      "end": "lie_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_001.npy",
+      "canvas_size": 612,
+      "source_id": 38,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        133,
+        238,
+        250,
+        261
+      ],
+      "storage_shape": [
+        261,
+        250,
+        4
+      ]
+    },
+    "side_turn": {
+      "start": "stand_front",
+      "end": "stand_side_screen_left",
+      "fps": 30,
+      "frames": 242,
+      "file": "runtime/asset_026.npy",
+      "source_id": 13,
+      "transform": [
+        0.5271565495207667,
+        73.46645367412142,
+        6.958466453674134
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        73,
+        65,
+        262,
+        333
+      ],
+      "storage_shape": [
+        333,
+        262,
+        4
+      ]
+    },
+    "side_turn_alt": {
+      "start": "stand_front",
+      "end": "stand_side_screen_left",
+      "fps": 30,
+      "frames": 242,
+      "file": "runtime/asset_027.npy",
+      "source_id": 28,
+      "transform": [
+        0.3433922996878252,
+        72.98647242455775,
+        58.78876170655565
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        73,
+        59,
+        262,
+        351
+      ],
+      "storage_shape": [
+        351,
+        262,
+        4
+      ]
+    },
+    "quarter_turn_alt": {
+      "start": "stand_front",
+      "end": "stand_threequarter_far",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_022.npy",
+      "source_id": 20,
+      "transform": [
+        0.3674832962138085,
+        63.74164810690422,
+        46.52338530066811
+      ],
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        64,
+        59,
+        280,
+        351
+      ],
+      "storage_shape": [
+        351,
+        280,
+        4
+      ]
+    },
+    "sit_left_idle": {
+      "start": "sit_look_screen_left",
+      "end": "sit_look_screen_left",
+      "fps": 30,
+      "frames": 122,
+      "file": "runtime/asset_029.npy",
+      "source_id": 1,
+      "transform": [
+        0.3588621444201313,
+        52.10065645514223,
+        47.90371991247264
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        81,
+        67,
+        208,
+        330
+      ],
+      "storage_shape": [
+        330,
+        208,
+        4
+      ]
+    },
+    "sit_right_idle": {
+      "start": "sit_look_screen_right",
+      "end": "sit_look_screen_right",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_032.npy",
+      "source_id": 4,
+      "transform": [
+        0.5290322580645161,
+        65.04516129032257,
+        0.2838709677419047
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        89,
+        67,
+        209,
+        331
+      ],
+      "storage_shape": [
+        331,
+        209,
+        4
+      ]
+    },
+    "sit_scratch": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_033.npy",
+      "source_id": 5,
+      "transform": [
+        0.5494137353433836,
+        59.46063651591291,
+        -8.91792294807368
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        79,
+        65,
+        227,
+        331
+      ],
+      "storage_shape": [
+        331,
+        227,
+        4
+      ]
+    },
+    "stand_scratch": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_038.npy",
+      "source_id": 9,
+      "transform": [
+        0.5084745762711864,
+        78.30508474576271,
+        -31.118644067796595
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        81,
+        64,
+        220,
+        332
+      ],
+      "storage_shape": [
+        332,
+        220,
+        4
+      ]
+    },
+    "sit_look_alt": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 302,
+      "file": "runtime/asset_031.npy",
+      "source_id": 21,
+      "transform": [
+        0.5062034739454094,
+        6.0,
+        -0.35732009925555985
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "body_normalization": {
+        "scale": 0.6105675146771037,
+        "reference": "sit_down",
+        "target_height": 312.0
+      },
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        169,
+        163,
+        228,
+        332
+      ],
+      "storage_shape": [
+        332,
+        228,
+        4
+      ]
+    },
+    "side_idle": {
+      "start": "stand_side_screen_left",
+      "end": "stand_side_screen_left",
+      "fps": 30,
+      "frames": 303,
+      "file": "runtime/asset_023.npy",
+      "source_id": 22,
+      "transform": [
+        0.3680297397769517,
+        91.49442379182156,
+        54.10037174721185
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        91,
+        54,
+        281,
+        342
+      ],
+      "storage_shape": [
+        342,
+        281,
+        4
+      ]
+    },
+    "side_sniff": {
+      "start": "stand_side_screen_left",
+      "end": "stand_side_screen_left",
+      "fps": 30,
+      "frames": 212,
+      "file": "runtime/asset_025.npy",
+      "source_id": 24,
+      "transform": [
+        0.4676258992805755,
+        53.81294964028777,
+        6.0
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        93,
+        6,
+        277,
+        391
+      ],
+      "storage_shape": [
+        391,
+        277,
+        4
+      ]
+    },
+    "sit_scratch_alt": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_034.npy",
+      "source_id": 25,
+      "transform": [
+        0.3869132290184922,
+        51.75248933143669,
+        58.611664295874846
+      ],
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "body_normalization": {
+        "scale": 0.4663677130044843,
+        "reference": "sit_down",
+        "target_height": 312.0
+      },
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        156,
+        87,
+        248,
+        477
+      ],
+      "storage_shape": [
+        477,
+        248,
+        4
+      ]
+    },
+    "side_lookup": {
+      "start": "stand_side_screen_left",
+      "end": "stand_side_screen_left",
+      "fps": 30,
+      "frames": 212,
+      "file": "runtime/asset_024.npy",
+      "source_id": 27,
+      "transform": [
+        0.3448275862068966,
+        98.9655172413793,
+        67.72413793103448
+      ],
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        99,
+        68,
+        263,
+        329
+      ],
+      "storage_shape": [
+        329,
+        263,
+        4
+      ]
+    },
+    "side_return": {
+      "start": "stand_side_screen_left",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 242,
+      "file": "runtime/asset_026.npy",
+      "source_id": 13,
+      "transform": [
+        0.5271565495207667,
+        73.46645367412142,
+        6.958466453674134
+      ],
+      "reverse": true,
+      "derived": "reverse side_turn",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        73,
+        65,
+        262,
+        333
+      ],
+      "storage_shape": [
+        333,
+        262,
+        4
+      ]
+    },
+    "side_return_alt": {
+      "start": "stand_side_screen_left",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 242,
+      "file": "runtime/asset_027.npy",
+      "source_id": 28,
+      "transform": [
+        0.3433922996878252,
+        72.98647242455775,
+        58.78876170655565
+      ],
+      "reverse": true,
+      "derived": "reverse side_turn_alt",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        73,
+        59,
+        262,
+        351
+      ],
+      "storage_shape": [
+        351,
+        262,
+        4
+      ]
+    },
+    "turn_exit_return": {
+      "start": "stand_threequarter",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 120,
+      "file": "runtime/asset_040.npy",
+      "canvas_size": 612,
+      "fixed_body_scale": true,
+      "source_id": 15,
+      "reverse": true,
+      "derived": "reverse trimmed near turn_exit; never use far quarter return",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        156,
+        154,
+        279,
+        339
+      ],
+      "storage_shape": [
+        339,
+        279,
+        4
+      ]
+    },
+    "quarter_return_alt": {
+      "start": "stand_threequarter_far",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_022.npy",
+      "source_id": 20,
+      "transform": [
+        0.3674832962138085,
+        63.74164810690422,
+        46.52338530066811
+      ],
+      "reverse": true,
+      "derived": "reverse quarter_turn_alt",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        64,
+        59,
+        280,
+        351
+      ],
+      "storage_shape": [
+        351,
+        280,
+        4
+      ]
+    },
+    "sit_to_left": {
+      "start": "sit_front",
+      "end": "sit_look_screen_left",
+      "fps": 30,
+      "frames": 76,
+      "file": "runtime/asset_030.npy",
+      "source_id": 19,
+      "transform": [
+        0.3485653560042508,
+        64.6482465462274,
+        48.48034006376196
+      ],
+      "frame_start": 0,
+      "derived": "prefix of sit_look",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        65,
+        48,
+        233,
+        349
+      ],
+      "storage_shape": [
+        349,
+        233,
+        4
+      ]
+    },
+    "sit_from_left": {
+      "start": "sit_look_screen_left",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 227,
+      "file": "runtime/asset_030.npy",
+      "source_id": 19,
+      "transform": [
+        0.3485653560042508,
+        64.6482465462274,
+        48.48034006376196
+      ],
+      "frame_start": 75,
+      "derived": "suffix of sit_look",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        65,
+        48,
+        233,
+        349
+      ],
+      "storage_shape": [
+        349,
+        233,
+        4
+      ]
+    },
+    "sit_to_right": {
+      "start": "sit_front",
+      "end": "sit_look_screen_right",
+      "fps": 30,
+      "frames": 226,
+      "file": "runtime/asset_030.npy",
+      "source_id": 19,
+      "transform": [
+        0.3485653560042508,
+        64.6482465462274,
+        48.48034006376196
+      ],
+      "frame_start": 0,
+      "derived": "prefix of sit_look",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        65,
+        48,
+        233,
+        349
+      ],
+      "storage_shape": [
+        349,
+        233,
+        4
+      ]
+    },
+    "sit_from_right": {
+      "start": "sit_look_screen_right",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 77,
+      "file": "runtime/asset_030.npy",
+      "source_id": 19,
+      "transform": [
+        0.3485653560042508,
+        64.6482465462274,
+        48.48034006376196
+      ],
+      "frame_start": 225,
+      "derived": "suffix of sit_look",
+      "action_class": "posture_transition",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        65,
+        48,
+        233,
+        349
+      ],
+      "storage_shape": [
+        349,
+        233,
+        4
+      ]
+    },
+    "stand_idle_legacy": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 123,
+      "file": "runtime/asset_036.npy",
+      "source_id": 12,
+      "transform": [
+        0.5246422893481717,
+        74.11764705882354,
+        7.764705882352928
+      ],
+      "derived": "previous standby retained for coverage",
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "canvas_size": 420,
+      "crop_rect": [
+        74,
+        62,
+        226,
+        335
+      ],
+      "storage_shape": [
+        335,
+        226,
+        4
+      ]
+    },
+    "sit_idle": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 153,
+      "file": "runtime/asset_007.npy",
+      "canvas_size": 612,
+      "source_id": 30,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        182,
+        170,
+        214,
+        330
+      ],
+      "storage_shape": [
+        330,
+        214,
+        4
+      ]
+    },
+    "sit_bark": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 152,
+      "file": "runtime/asset_006.npy",
+      "canvas_size": 612,
+      "source_id": 29,
+      "fixed_body_scale": true,
+      "authored": true,
+      "action_class": "ambient",
+      "trigger": "scheduler",
+      "response_priority": 0,
+      "request_kind": null,
+      "crop_rect": [
+        183,
+        168,
+        213,
+        333
+      ],
+      "storage_shape": [
+        333,
+        213,
+        4
+      ]
+    },
+    "pet_sit": {
+      "start": "sit_front",
+      "end": "sit_front",
+      "fps": 30,
+      "frames": 243,
+      "file": "runtime/asset_004.npy",
+      "canvas_size": 612,
+      "source_id": 31,
+      "fixed_body_scale": true,
+      "authored": true,
+      "interaction_role": "pet",
+      "action_class": "owner_special",
+      "trigger": "double_click_head",
+      "response_priority": 90,
+      "request_kind": "pet",
+      "crop_rect": [
+        178,
+        164,
+        218,
+        337
+      ],
+      "storage_shape": [
+        337,
+        218,
+        4
+      ]
+    },
+    "pet_paws": {
+      "start": "lie_paws",
+      "end": "lie_paws",
+      "fps": 30,
+      "frames": 152,
+      "file": "runtime/asset_003.npy",
+      "canvas_size": 612,
+      "source_id": 32,
+      "fixed_body_scale": true,
+      "authored": true,
+      "interaction_role": "pet",
+      "action_class": "owner_special",
+      "trigger": "double_click_head",
+      "response_priority": 90,
+      "request_kind": "pet",
+      "crop_rect": [
+        111,
+        285,
+        273,
+        213
+      ],
+      "storage_shape": [
+        213,
+        273,
+        4
+      ]
+    },
+    "typing_enter": {
+      "start": "stand_front",
+      "end": "typing",
+      "fps": 30,
+      "frames": 126,
+      "file": "runtime/asset_010.npy",
+      "canvas_size": 612,
+      "source_id": 35,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 0,
+      "continuous_group": "typing",
+      "interaction_role": "enter",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "keyboard_activity",
+      "response_priority": 60,
+      "request_kind": "typing",
+      "crop_rect": [
+        160,
+        167,
+        276,
+        353
+      ],
+      "storage_shape": [
+        353,
+        276,
+        4
+      ]
+    },
+    "typing_loop": {
+      "start": "typing",
+      "end": "typing",
+      "fps": 30,
+      "frames": 106,
+      "file": "runtime/asset_010.npy",
+      "canvas_size": 612,
+      "source_id": 35,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 126,
+      "continuous_group": "typing",
+      "interaction_role": "loop",
+      "routing_transition": false,
+      "action_class": "owner_special",
+      "trigger": "keyboard_activity",
+      "response_priority": 60,
+      "request_kind": "typing",
+      "crop_rect": [
+        160,
+        167,
+        276,
+        353
+      ],
+      "storage_shape": [
+        353,
+        276,
+        4
+      ]
+    },
+    "typing_exit": {
+      "start": "typing",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 70,
+      "file": "runtime/asset_010.npy",
+      "canvas_size": 612,
+      "source_id": 35,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 232,
+      "continuous_group": "typing",
+      "interaction_role": "exit",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "keyboard_activity",
+      "response_priority": 60,
+      "request_kind": "typing",
+      "crop_rect": [
+        160,
+        167,
+        276,
+        353
+      ],
+      "storage_shape": [
+        353,
+        276,
+        4
+      ]
+    },
+    "walk_left_enter": {
+      "start": "stand_front",
+      "end": "walk_left",
+      "fps": 30,
+      "frames": 114,
+      "file": "runtime/asset_011.npy",
+      "canvas_size": 612,
+      "source_id": 33,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 0,
+      "continuous_group": "walk_left",
+      "interaction_role": "enter",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "drag_left",
+      "response_priority": 80,
+      "request_kind": "walk_left",
+      "crop_rect": [
+        39,
+        159,
+        512,
+        346
+      ],
+      "storage_shape": [
+        346,
+        512,
+        4
+      ]
+    },
+    "walk_left_loop": {
+      "start": "walk_left",
+      "end": "walk_left",
+      "fps": 30,
+      "frames": 28,
+      "file": "runtime/asset_011.npy",
+      "canvas_size": 612,
+      "source_id": 33,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 114,
+      "continuous_group": "walk_left",
+      "interaction_role": "loop",
+      "routing_transition": false,
+      "action_class": "owner_special",
+      "trigger": "drag_left",
+      "response_priority": 80,
+      "request_kind": "walk_left",
+      "crop_rect": [
+        39,
+        159,
+        512,
+        346
+      ],
+      "storage_shape": [
+        346,
+        512,
+        4
+      ]
+    },
+    "walk_left_exit": {
+      "start": "walk_left",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 161,
+      "file": "runtime/asset_011.npy",
+      "canvas_size": 612,
+      "source_id": 33,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 142,
+      "continuous_group": "walk_left",
+      "interaction_role": "exit",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "drag_left",
+      "response_priority": 80,
+      "request_kind": "walk_left",
+      "crop_rect": [
+        39,
+        159,
+        512,
+        346
+      ],
+      "storage_shape": [
+        346,
+        512,
+        4
+      ]
+    },
+    "walk_right_enter": {
+      "start": "stand_front",
+      "end": "walk_right",
+      "fps": 30,
+      "frames": 125,
+      "file": "runtime/asset_012.npy",
+      "canvas_size": 612,
+      "source_id": 34,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 0,
+      "continuous_group": "walk_right",
+      "interaction_role": "enter",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "drag_right",
+      "response_priority": 80,
+      "request_kind": "walk_right",
+      "crop_rect": [
+        81,
+        23,
+        468,
+        486
+      ],
+      "storage_shape": [
+        486,
+        468,
+        4
+      ]
+    },
+    "walk_right_loop": {
+      "start": "walk_right",
+      "end": "walk_right",
+      "fps": 30,
+      "frames": 29,
+      "file": "runtime/asset_012.npy",
+      "canvas_size": 612,
+      "source_id": 34,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 125,
+      "continuous_group": "walk_right",
+      "interaction_role": "loop",
+      "routing_transition": false,
+      "action_class": "owner_special",
+      "trigger": "drag_right",
+      "response_priority": 80,
+      "request_kind": "walk_right",
+      "crop_rect": [
+        81,
+        23,
+        468,
+        486
+      ],
+      "storage_shape": [
+        486,
+        468,
+        4
+      ]
+    },
+    "walk_right_exit": {
+      "start": "walk_right",
+      "end": "stand_front",
+      "fps": 30,
+      "frames": 149,
+      "file": "runtime/asset_012.npy",
+      "canvas_size": 612,
+      "source_id": 34,
+      "fixed_body_scale": true,
+      "authored": true,
+      "frame_start": 154,
+      "continuous_group": "walk_right",
+      "interaction_role": "exit",
+      "routing_transition": true,
+      "action_class": "owner_special",
+      "trigger": "drag_right",
+      "response_priority": 80,
+      "request_kind": "walk_right",
+      "crop_rect": [
+        81,
+        23,
+        468,
+        486
+      ],
+      "storage_shape": [
+        486,
+        468,
+        4
+      ]
+    },
+    "pet_stand": {
+      "start": "stand_front",
+      "end": "stand_front",
+      "fps": 30.0,
+      "frames": 242,
+      "file": "runtime/asset_005.npy",
+      "canvas_size": 612,
+      "source_id": 40,
+      "fixed_body_scale": true,
+      "authored": true,
+      "interaction_role": "pet",
+      "action_class": "owner_special",
+      "trigger": "double_click_head",
+      "response_priority": 90,
+      "request_kind": "pet",
+      "crop_rect": [
+        165,
+        152,
+        267,
+        348
+      ],
+      "storage_shape": [
+        348,
+        267,
+        4
+      ]
+    }
+  },
+  "demo": [
+    "lick",
+    "stand_idle",
+    "tilt",
+    "stand_idle",
+    "bark",
+    "stand_idle",
+    "stand_scratch",
+    "stand_idle",
+    "look_left",
+    "stand_look",
+    "stand_idle",
+    "side_turn",
+    "side_idle",
+    "side_sniff",
+    "side_lookup",
+    "side_return",
+    "stand_idle",
+    "side_turn_alt",
+    "side_idle",
+    "side_return_alt",
+    "stand_idle",
+    "quarter_turn_alt",
+    "quarter_return_alt",
+    "stand_idle",
+    "sit_down",
+    "sit_tilt",
+    "sit_scratch",
+    "sit_look",
+    "sit_up",
+    "stand_idle",
+    "sit_down",
+    "sit_scratch_alt",
+    "sit_look_alt",
+    "sit_up",
+    "stand_idle",
+    "sit_down",
+    "sit_to_left",
+    "sit_left_idle",
+    "sit_from_left",
+    "sit_up",
+    "stand_idle",
+    "sit_down",
+    "sit_to_right",
+    "sit_right_idle",
+    "sit_from_right",
+    "sit_up",
+    "stand_idle",
+    "sit_down",
+    "lie_down",
+    "head_down",
+    "paws_idle",
+    "head_up",
+    "lie_up",
+    "sit_up",
+    "stand_idle",
+    "stand_idle_legacy",
+    "stand_idle",
+    "sit_down",
+    "sit_idle",
+    "sit_bark",
+    "pet_sit",
+    "sit_up",
+    "stand_idle",
+    "sit_down",
+    "lie_down",
+    "head_down",
+    "pet_paws",
+    "head_up",
+    "lie_up",
+    "sit_up",
+    "stand_idle",
+    "typing_enter",
+    "typing_loop",
+    "typing_exit",
+    "stand_idle",
+    "walk_left_enter",
+    "walk_left_loop",
+    "walk_left_exit",
+    "stand_idle",
+    "walk_right_enter",
+    "walk_right_loop",
+    "walk_right_exit",
+    "stand_idle",
+    "pet_stand",
+    "stand_idle"
+  ],
+  "exit_routes": {
+    "stand_threequarter_far": [
+      "quarter_return_alt",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "stand_front": [
+      "turn_exit",
+      "exit_effect"
+    ],
+    "stand_threequarter": [
+      "exit_effect"
+    ],
+    "sit_front": [
+      "sit_up",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "lie_front": [
+      "lie_up",
+      "sit_up",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "lie_paws": [
+      "head_up",
+      "lie_up",
+      "sit_up",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "stand_look_screen_left": [
+      "stand_look",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "stand_front_small": [
+      "entry_approach",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "offscreen": [
+      "entry_effect",
+      "entry_approach",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "stand_side_screen_left": [
+      "side_return",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "sit_look_screen_left": [
+      "sit_from_left",
+      "sit_up",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "sit_look_screen_right": [
+      "sit_from_right",
+      "sit_up",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "typing": [
+      "typing_exit",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "walk_left": [
+      "walk_left_exit",
+      "turn_exit",
+      "exit_effect"
+    ],
+    "walk_right": [
+      "walk_right_exit",
+      "turn_exit",
+      "exit_effect"
+    ]
+  },
+  "startup": [
+    "entry_effect",
+    "entry_approach"
+  ],
+  "action_groups": [
+    [
+      "lick"
+    ],
+    [
+      "tilt"
+    ],
+    [
+      "bark"
+    ],
+    [
+      "stand_scratch"
+    ],
+    [
+      "look_left",
+      "stand_look"
+    ],
+    [
+      "side_turn",
+      "side_idle",
+      "side_sniff",
+      "side_lookup",
+      "side_return"
+    ],
+    [
+      "side_turn_alt",
+      "side_idle",
+      "side_return_alt"
+    ],
+    [
+      "quarter_turn_alt",
+      "quarter_return_alt"
+    ],
+    [
+      "sit_down",
+      "sit_tilt",
+      "sit_scratch",
+      "sit_look",
+      "sit_up"
+    ],
+    [
+      "sit_down",
+      "sit_scratch_alt",
+      "sit_look_alt",
+      "sit_up"
+    ],
+    [
+      "sit_down",
+      "sit_to_left",
+      "sit_left_idle",
+      "sit_from_left",
+      "sit_up"
+    ],
+    [
+      "sit_down",
+      "sit_to_right",
+      "sit_right_idle",
+      "sit_from_right",
+      "sit_up"
+    ],
+    [
+      "sit_down",
+      "lie_down",
+      "head_down",
+      "paws_idle",
+      "head_up",
+      "lie_up",
+      "sit_up"
+    ],
+    [
+      "stand_idle_legacy"
+    ],
+    [
+      "sit_down",
+      "sit_idle",
+      "sit_bark",
+      "pet_sit",
+      "sit_up"
+    ],
+    [
+      "sit_down",
+      "lie_down",
+      "head_down",
+      "pet_paws",
+      "head_up",
+      "lie_up",
+      "sit_up"
+    ],
+    [
+      "typing_enter",
+      "typing_loop",
+      "typing_exit"
+    ],
+    [
+      "walk_left_enter",
+      "walk_left_loop",
+      "walk_left_exit"
+    ],
+    [
+      "walk_right_enter",
+      "walk_right_loop",
+      "walk_right_exit"
+    ],
+    [
+      "pet_stand"
+    ]
+  ],
+  "interaction_assets": {
+    "typing": "owner_keyboard_activity",
+    "pet_sit": "double_click_head",
+    "pet_paws": "double_click_head",
+    "walk_left": "drag_left",
+    "walk_right": "drag_right",
+    "pet_stand": "double_click_head"
+  },
+  "response_policy": {
+    "version": "20261019",
+    "special_actions": {
+      "typing": {
+        "label": "跟主人敲键盘",
+        "trigger": "keyboard_activity",
+        "priority": 60,
+        "destination": "typing"
+      },
+      "walk_left": {
+        "label": "向左拖动",
+        "trigger": "drag_left",
+        "priority": 80,
+        "destination": "walk_left"
+      },
+      "walk_right": {
+        "label": "向右拖动",
+        "trigger": "drag_right",
+        "priority": 80,
+        "destination": "walk_right"
+      },
+      "pet": {
+        "label": "双击头部摸头",
+        "trigger": "double_click_head",
+        "priority": 90,
+        "destination": "current_posture"
+      },
+      "manual_pose": {
+        "label": "手动指定姿态",
+        "trigger": "radial_pose_button",
+        "priority": 95,
+        "destination": "requested_posture"
+      },
+      "exit": {
+        "label": "退出桌宠",
+        "trigger": "exit_requested",
+        "priority": 100,
+        "destination": "offscreen"
+      }
+    },
+    "route_motion_rate": 3.5,
+    "quiet_segment_factor": 2.2,
+    "ramp_seconds": 0.22,
+    "approach_idle_timeout": 0.55,
+    "active_idle_timeout": 2.0,
+    "on_approach_cancel": "finish_active_stage_then_rest_at_reached_posture",
+    "loops_keep_authored_speed": true
+  }
+}

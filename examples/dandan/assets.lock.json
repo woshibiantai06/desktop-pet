@@ -1,0 +1,226 @@
+{
+  "version": "0.3.2",
+  "release_url": "https://github.com/woshibiantai06/desktop-pet/releases/tag/dandan-v0.3.2",
+  "release_asset": "dandan-0.3.2-windows-x64.zip",
+  "zip_bytes": 943479014,
+  "zip_sha256": "cb8e1ed69e2268a3b16d211d5a9a37542d8bfc7776fb979030ab23c85d0e286a",
+  "archive_prefix": "诞诞桌宠/_internal/",
+  "config_sha256": "b69d9360f8baf7036e7d9838a551b0ba63da3dd12b90b9209474661939be836c",
+  "files": [
+    {
+      "path": "runtime/app.ico",
+      "bytes": 137737,
+      "sha256": "60a7f8dab973a76da6d4a782df656fc38345518944f0b7265c9d33e1df046c31"
+    },
+    {
+      "path": "runtime/app_icon.png",
+      "bytes": 1871094,
+      "sha256": "d17ffb2f6c23ba5b71d79283f0284dba82ce58f5169047c56d23a0713b7cd4b3"
+    },
+    {
+      "path": "runtime/asset_001.npy",
+      "bytes": 32103128,
+      "sha256": "c7a6b237b7274b36a444cbe05d9f4772655e4838eb5fcc073f0450742a05424a"
+    },
+    {
+      "path": "runtime/asset_002.npy",
+      "bytes": 44382956,
+      "sha256": "9ca33e9de344781ac79fba8db40bddd9fbff226e5c9183543a5eb3a17fd05171"
+    },
+    {
+      "path": "runtime/asset_003.npy",
+      "bytes": 35354720,
+      "sha256": "60710198e1801faf6b927fbbf4dfa98cd445a5dcdda2d93636a394e81b508d1a"
+    },
+    {
+      "path": "runtime/asset_004.npy",
+      "bytes": 71409080,
+      "sha256": "18fee93bb7d0f2d4acfedf20a10479b457aa53de359bbc4d00d5bc855a0a8325"
+    },
+    {
+      "path": "runtime/asset_005.npy",
+      "bytes": 89942816,
+      "sha256": "24e58025875c8aa48c3315f5fab4ca391c810a112f67e38a18a846f11758cde8"
+    },
+    {
+      "path": "runtime/asset_006.npy",
+      "bytes": 43124960,
+      "sha256": "f74064f5242e8733c5818ff7774a46b36f690d2d2c9a785a2f4a6c182a3837c8"
+    },
+    {
+      "path": "runtime/asset_007.npy",
+      "bytes": 43219568,
+      "sha256": "39a66c1191bcdf0705b3f92b91c6a13f6688b08604c36248642d261b903abefd"
+    },
+    {
+      "path": "runtime/asset_008.npy",
+      "bytes": 39770176,
+      "sha256": "9b683a6c6606af9fe521c01178427cc81de6a9c53baee8b3e568611b1de392c8"
+    },
+    {
+      "path": "runtime/asset_009.npy",
+      "bytes": 36615744,
+      "sha256": "ec7afca756b9e4323c39823566ecf159cc624f25dfc38ed19dd0e38f14759e7a"
+    },
+    {
+      "path": "runtime/asset_010.npy",
+      "bytes": 117693152,
+      "sha256": "5745068c7a2d966439ffc6422f7b37453e0ecfff1faa14f4a2efff18e561e9d8"
+    },
+    {
+      "path": "runtime/asset_011.npy",
+      "bytes": 214708352,
+      "sha256": "3fa3ad2f76ecbe85d0d08fac2a41b119d4907642f3e6797436c9bec409d53f6e"
+    },
+    {
+      "path": "runtime/asset_012.npy",
+      "bytes": 275667104,
+      "sha256": "817e1f874913942c29d5e42bc5cb45c8e2ac0588d1cd4ce82f08830535ee07f2"
+    },
+    {
+      "path": "runtime/asset_013.npy",
+      "bytes": 37354736,
+      "sha256": "dd85a635f7b1b7274bf400c6e860ad064dfefc4435e167f9d46e523c3443b72f"
+    },
+    {
+      "path": "runtime/asset_014.npy",
+      "bytes": 78287924,
+      "sha256": "3944e94e3b06514b4a124002239d157b497283c8b9fc54b389f82929044611b3"
+    },
+    {
+      "path": "runtime/asset_015.npy",
+      "bytes": 80047040,
+      "sha256": "1d546592ccb5086fe54f70cc734da20038823aaf2af36b2716132536bd65b58c"
+    },
+    {
+      "path": "runtime/asset_016.npy",
+      "bytes": 112127888,
+      "sha256": "389459cd8c6cb0bc4be7ea343c05136fd2d5be1f77902f573c41add5103b5fe8"
+    },
+    {
+      "path": "runtime/asset_017.npy",
+      "bytes": 86701760,
+      "sha256": "9b3051de5348a456fc21969f5e830a27a42f2258dca13e4704d0773c37964e26"
+    },
+    {
+      "path": "runtime/asset_018.npy",
+      "bytes": 31593248,
+      "sha256": "f27c40c27f54317fe1d33a5670a636e791b3f09bdde8fafb55e99ff9081886d5"
+    },
+    {
+      "path": "runtime/asset_019.npy",
+      "bytes": 62469008,
+      "sha256": "8a73e03f670c7cee2c468357382d138476e5c8896de767ee3922e09edca0e8c1"
+    },
+    {
+      "path": "runtime/asset_020.npy",
+      "bytes": 32889376,
+      "sha256": "77098a07f48de3beb5277a50ad3caf00ff2b9a614426038270c816b357db9d10"
+    },
+    {
+      "path": "runtime/asset_021.npy",
+      "bytes": 44640416,
+      "sha256": "9d0a332d5f214fc4f2e1f922ad4c3154eacd6a23951e500133d426b609ec241b"
+    },
+    {
+      "path": "runtime/asset_022.npy",
+      "bytes": 48353888,
+      "sha256": "3f05a2abaae5b3c3020744cd277c5feaf35f7e572242cffdd3e1013f157948d2"
+    },
+    {
+      "path": "runtime/asset_023.npy",
+      "bytes": 116475752,
+      "sha256": "7a8c7f12cff1d31e1e70ac518fe55f8e630b6d9b9768659c4d29c0326a04b131"
+    },
+    {
+      "path": "runtime/asset_024.npy",
+      "bytes": 73375024,
+      "sha256": "f8715b283456001ff14ca7a6f2a65705b3816f4346c669c378bf4d4acc86a99a"
+    },
+    {
+      "path": "runtime/asset_025.npy",
+      "bytes": 91844464,
+      "sha256": "43cf24de06aa61418b04942959f1599b572356553c52ae6f479733f548653a97"
+    },
+    {
+      "path": "runtime/asset_026.npy",
+      "bytes": 84454256,
+      "sha256": "10fdf692b4b6e86279e78e0b7b6541050a5973b6782350b95e4ed351ec41d3f2"
+    },
+    {
+      "path": "runtime/asset_027.npy",
+      "bytes": 89019344,
+      "sha256": "6316cbc47656aa1d067727e0bf9de76fb07d5f3e40b81ee4ab0003343fc77759"
+    },
+    {
+      "path": "runtime/asset_028.npy",
+      "bytes": 35482184,
+      "sha256": "8e461aa6f3a46ab5bd1995aebc9ea41287c32db601023ee6c6348ace4fcb68a3"
+    },
+    {
+      "path": "runtime/asset_029.npy",
+      "bytes": 33496448,
+      "sha256": "24e026d6015a698f2cf27e92279518f0b384bd278335f6895607039a7fa6b90a"
+    },
+    {
+      "path": "runtime/asset_030.npy",
+      "bytes": 98231064,
+      "sha256": "6b26e7cdf661034c7828cf68180b4f769652f3aa3118dd6de23b679669cf11f0"
+    },
+    {
+      "path": "runtime/asset_031.npy",
+      "bytes": 91440896,
+      "sha256": "45dddd3962e879c438bc41c3285803a99cf062c74295956d46315c4a527713cf"
+    },
+    {
+      "path": "runtime/asset_032.npy",
+      "bytes": 34036196,
+      "sha256": "df5262911f3f86c168d88371690c63123b1e7717741059825f33fc18ec5999dd"
+    },
+    {
+      "path": "runtime/asset_033.npy",
+      "bytes": 36967532,
+      "sha256": "56771712e46b9642bd6004c35a8ff32c0b8b32f465721d211d2c4808dc463da7"
+    },
+    {
+      "path": "runtime/asset_034.npy",
+      "bytes": 58201760,
+      "sha256": "d2367db1bc7617a17993925002659e4a4d33c857a8217f0faed1fe4325f61dfd"
+    },
+    {
+      "path": "runtime/asset_035.npy",
+      "bytes": 36344904,
+      "sha256": "50ca5a7a81ccdcfbd7d64b093c2fa9be223f2fb5430e57d94fb461340bd63d56"
+    },
+    {
+      "path": "runtime/asset_036.npy",
+      "bytes": 37249448,
+      "sha256": "ac718a309b7b6738749f6c352621efba3d76db2e9cac502893a0c64cbb2c36b4"
+    },
+    {
+      "path": "runtime/asset_037.npy",
+      "bytes": 147847160,
+      "sha256": "8f437b63594d7f3825c7a0a1479856dd26789868710e9ef0db383f4f6c9a33ac"
+    },
+    {
+      "path": "runtime/asset_038.npy",
+      "bytes": 35935808,
+      "sha256": "8b10f934a55676ed0686fae13c78d0debec1122f6f7a6e4cdad2d687c132cd70"
+    },
+    {
+      "path": "runtime/asset_039.npy",
+      "bytes": 37442416,
+      "sha256": "ed6de817d021a3b6169f85a51513a66cdcd2bfb125352a1016c6745ea045dbdf"
+    },
+    {
+      "path": "runtime/asset_040.npy",
+      "bytes": 45777332,
+      "sha256": "7b8555e7dc63a55ed3e83c98ce553692a2843ec0003821ed461a18e94b461f38"
+    },
+    {
+      "path": "runtime/stand_idle_first.png",
+      "bytes": 94638,
+      "sha256": "ca4c282d27a9b01dd3f47b66a8fde6f635f03f67abd21460cd72031f96240341"
+    }
+  ]
+}

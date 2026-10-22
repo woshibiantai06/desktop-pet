@@ -1,0 +1,4 @@
+interface:
+  display_name: "桌宠：照片到动作流程"
+  short_description: "从宠物照片生成完整动作表、配对图像与视频提示词，以及首尾帧衔接和逐步制作计划"
+  default_prompt: "使用 $windows-desktop-pet，根据我提供的宠物照片，规划并带我完成类似诞诞的桌宠：列出动作、每段静态和动态提示词、参考图与首尾帧来源、生成顺序及验收交接。"
