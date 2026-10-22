@@ -12,7 +12,4 @@ build/
 *.dll
 *.npy
 *.npz
-examples/dandan/app/runtime/
-examples/dandan/app/logs/
-examples/dandan/app/userdata/
 .pytest_cache/

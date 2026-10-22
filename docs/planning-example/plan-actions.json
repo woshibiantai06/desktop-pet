@@ -1,0 +1,32 @@
+{
+  "evidence_scope": "Planning only. All video assets and extracted frames are pending. No video or runtime QA has occurred.",
+  "initial_state": "F",
+  "actions": [
+    {"asset_id":"A01","start_state":"F","end_state":"F","kind":"loop","status":"pending"},
+    {"asset_id":"A02","start_state":"F","end_state":"S","kind":"transition","status":"pending"},
+    {"asset_id":"A03","start_state":"S","end_state":"S","kind":"loop","status":"pending"},
+    {"asset_id":"A04","start_state":"S","end_state":"F","kind":"transition","status":"pending"},
+    {"asset_id":"A05","start_state":"S","end_state":"L","kind":"transition","status":"pending"},
+    {"asset_id":"A06","start_state":"L","end_state":"L","kind":"loop","status":"pending"},
+    {"asset_id":"A07","start_state":"L","end_state":"P","kind":"transition","status":"pending"},
+    {"asset_id":"A08","start_state":"P","end_state":"P","kind":"loop","status":"pending"},
+    {"asset_id":"A09","start_state":"P","end_state":"L","kind":"transition","status":"pending"},
+    {"asset_id":"A10","start_state":"L","end_state":"S","kind":"transition","status":"pending"},
+    {"asset_id":"W01","start_state":"F","end_state":"WL","kind":"transition","status":"pending"},
+    {"asset_id":"W02E","start_state":"WL","end_state":"GL","kind":"transition","status":"pending"},
+    {"asset_id":"W02L","start_state":"GL","end_state":"GL","kind":"loop","status":"pending"},
+    {"asset_id":"W03S","start_state":"GL","end_state":"WL","kind":"transition","status":"pending"},
+    {"asset_id":"W03R","start_state":"WL","end_state":"F","kind":"transition","status":"pending"}
+  ],
+  "routes": [
+    {"name":"stand-sit-return","start_state":"F","actions":["A01","A02","A03","A04","A01"],"end_state":"F"},
+    {"name":"stand-sit-lie-return","start_state":"F","actions":["A02","A05","A06","A10","A04"],"end_state":"F"},
+    {"name":"all-four-poses-return","start_state":"F","actions":["A02","A03","A05","A06","A07","A08","A09","A10","A04"],"end_state":"F"},
+    {"name":"left-walk-return","start_state":"F","actions":["W01","W02E","W02L","W02L","W03S","W03R","A01"],"end_state":"F"},
+    {"name":"left-drag-from-sit","start_state":"S","actions":["A04","W01","W02E","W02L","W03S","W03R"],"end_state":"F"},
+    {"name":"left-drag-from-lie","start_state":"L","actions":["A10","A04","W01","W02E","W02L","W03S","W03R"],"end_state":"F"},
+    {"name":"left-drag-from-paw-rest","start_state":"P","actions":["A09","A10","A04","W01","W02E","W02L","W03S","W03R"],"end_state":"F"},
+    {"name":"cancel-before-starting-gait","start_state":"WL","actions":["W03R"],"end_state":"F"},
+    {"name":"cancel-at-gait-phase","start_state":"GL","actions":["W03S","W03R"],"end_state":"F"}
+  ]
+}

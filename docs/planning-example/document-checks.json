@@ -1,0 +1,9 @@
+{
+  "scope": "Document structure, links, privacy tokens, and prompt coverage only; no media QA.",
+  "ok": true,
+  "markdown_files": 4,
+  "action_card_count": 15,
+  "prompt_block_count": 21,
+  "internal_links_checked": 27,
+  "errors": []
+}

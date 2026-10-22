@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "routes": [
+    {
+      "name": "stand-sit-return",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "stand-sit-lie-return",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "all-four-poses-return",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "left-walk-return",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "left-drag-from-sit",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "left-drag-from-lie",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "left-drag-from-paw-rest",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "cancel-before-starting-gait",
+      "ok": true,
+      "final_state": "F"
+    },
+    {
+      "name": "cancel-at-gait-phase",
+      "ok": true,
+      "final_state": "F"
+    }
+  ],
+  "action_count": 15
+}

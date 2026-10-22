@@ -6,3 +6,5 @@
 *.json text eol=lf
 *.png binary
 *.jpg binary
+# Preserve exact release config bytes for the checked extraction workflow.
+examples/dandan/config.json -text
